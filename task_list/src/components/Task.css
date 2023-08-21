@@ -1,0 +1,29 @@
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .task.completed {
+    text-decoration: line-through;
+  }
+  
+  .task-text {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+  
+  .complete-button {
+    background-color: #0056b3;
+    border: none;
+    cursor: pointer;
+    color: #f9fafc;
+  }
+  
+  .complete-button:hover {
+    text-decoration: underline;
+  }
+  

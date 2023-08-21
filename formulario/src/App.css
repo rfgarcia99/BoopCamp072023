@@ -1,0 +1,26 @@
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.submitted-data h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.submitted-data p {
+  margin: 5px 0;
+}

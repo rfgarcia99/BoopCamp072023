@@ -1,0 +1,91 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+.task-list {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-task-form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}
+
+/* Reset button style */
+button::-moz-focus-inner {
+  border: 0;
+}
+
+/* Task component styles */
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.task.completed {
+  text-decoration: line-through;
+}
+
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.complete-button,
+.delete-button {
+  background-color: #0056b3;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f6f7f8;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.complete-button:hover{
+  text-decoration: underline;
+}
+
+/* Adjust delete button color for completed tasks */
+.task.completed .delete-button {
+  color: #dc3545;
+}
+
+/* Responsive styles */
+@media (max-width: 500px) {
+  .task-list {
+    max-width: 100%;
+    border: none;
+    box-shadow: none;
+  }
+}
+
